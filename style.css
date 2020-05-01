@@ -1,0 +1,32 @@
+*{
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+#canvas_container{
+    /* display: inline-block; */
+    border: 6px solid gray;
+    border-radius: 6px
+}
+
+canvas{
+    display: block;
+}
+
+.main_contaner{
+    display: flex;
+    flex-direction: row;
+}
+.main_contaner > div{
+    flex: 1 1 1;
+    margin: 1%;
+}
+
+.input_label{
+    display: flex;
+    align-items: center;
+}
+
+.input_label p{
+    white-space: pre;
+}
